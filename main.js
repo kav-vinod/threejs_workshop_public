@@ -46,7 +46,7 @@ const icosGeo = new THREE.IcosahedronGeometry(10, 0);
 const torusGeo = new THREE.TorusGeometry(20, 5, 2, 100);
 
 //texture + material for sun
-const textureSun = new THREE.TextureLoader().load("https://kav-vinod.github.io/threejs_workshop_images/suntexture.jpg");
+const textureSun = new THREE.TextureLoader().load("suntexture.jpg");
 const sunMaterial = new THREE.MeshStandardMaterial({ map: textureSun });
 
 // Create material for octahedron
@@ -56,7 +56,7 @@ const octMaterial = new THREE.MeshStandardMaterial({ color: 0xaddfad });
 const icosMaterial = new THREE.MeshStandardMaterial({ color: 0x800000 });
 
 //texture + material for Saturn
-const textureSat = new THREE.TextureLoader().load("https://kav-vinod.github.io/threejs_workshop_images/saturntexture.jpg");
+const textureSat = new THREE.TextureLoader().load("saturntexture.jpg");
 const satMaterial = new THREE.MeshStandardMaterial({ map: textureSat });
 
 
